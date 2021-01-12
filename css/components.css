@@ -1,0 +1,50 @@
+.social__item {
+    margin-bottom: 42px;
+}
+.social__item a{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 171.6%;
+    margin-left: 30px;
+}
+.socila__item,
+.social__icons {
+    display: flex;
+    align-items: center;
+}
+.social__icons li {
+    margin-right: 56px;
+}
+.container {
+    max-width: 1190px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+li {
+    list-style: none;
+}
+
+.row {
+    display: flex;
+}
+.col-5 {
+   width: 40%;
+}
+.col-7 {
+    width: 50%;
+}
+hr {
+    height: 1px solid white;
+    opacity: 0.6;
+}
+
+.text-center {
+    text-align: center;
+}

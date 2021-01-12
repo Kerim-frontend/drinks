@@ -1,0 +1,68 @@
+.subscribe {
+    background-color: #18191A;
+    padding: 60px 0;
+}
+.subscribe__title {
+    font-family: 'ChocolateBox';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 28px;
+    color: #E2B024;
+}
+.subscribe__description {
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    margin: 24px 0 70px;
+}
+.subscribe__label {
+    position: relative;
+    box-sizing: border-box; 
+}
+.subscribe__input {
+    position: relative;
+    box-sizing: border-box;
+    padding: 19px 0 19px 34px;
+    outline: none;
+    width: 46%;
+    background-color: #000;
+    border: none;
+    z-index: 2;
+    color: white;
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 27px;
+    font-size: 18px;
+    transition: 0.4s;
+    
+}
+.subscribe__input:focus {
+    outline: none;
+}
+
+.subscribe__btn {
+    position: absolute;
+    right: 0;
+    bottom: -130%;
+    padding: 18px;
+    background-color: #E2B024;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: #1F1F1F;
+    z-index: 2;
+}
+
+.subscribe__input::placeholder{
+    color: white;
+    opacity: 0.2;
+}
